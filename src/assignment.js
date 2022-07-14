@@ -31,8 +31,8 @@ assignment.sumOfNumbers = sumOfNumbers;
  */
 function countEvenNumbers(arrayOfNumbers) {
   let count = 0
-  for (let number = 0; number < arrayOfNumbers.length; number++ ) {
-    if (number %2 === 0 && number !== '' && number != []) {
+  for (let Number = 0; Number < arrayOfNumbers.length; Number++ ) {
+    if (arrayOfNumbers[Number] %2 === 0) {
       count ++;
     }
   }
